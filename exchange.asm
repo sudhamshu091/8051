@@ -1,4 +1,4 @@
-;Exchange n = 5 bytes of data from location 0028H to 0040H
+; Exchange n = 5 bytes of data from location 0028H to 0040H
       ORG 0H
       SJMP 30H
       ORG 30H
