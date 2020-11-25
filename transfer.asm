@@ -1,4 +1,4 @@
-;transfer n = 5 bits of data from location 8040h to 8050h
+; transfer n = 5 bits of data from location 8040h to 8050h
       ORG 0H
       SJMP 30H
       ORG 30H
