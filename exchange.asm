@@ -9,7 +9,7 @@ BACK: MOV A,@R0    ;[0028H] --> A
       MOV R2,A     ;Store
       MOV A,@R1    ;[0040H] --> A
       MOV @R0,A
-      MOV A,R2     ;exchange
+      MOV A,R2     ;exchange operation
       MOV @R1,A
       INC R0
       INC R1
