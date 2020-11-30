@@ -3,6 +3,14 @@
 ;Else if x = 1-perform w - v;
 ;Else if x = 2-perform w * v;
 ;Else if x = 3-perform w / v, where w & v are eight bit numbers.
+
+;1. Store the condition x in R1.
+;2. Load the first and second numbers to A and B registers respectively
+;3. Compare the contents of R1 and perform the operations add, sub, etc
+;      accordingly.
+;4. Store the result present in A and B registers to the appropriate memory
+;      locations.
+ 
       ORG 0H
       SJMP 30H
       ORG 30H
