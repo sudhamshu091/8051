@@ -1,8 +1,10 @@
-;Output the initial value 00 through P0.
-;Increment it in steps of 1 until a count value of FFh (5V) is reached.
-;Every time repeat step 1.
-;Decrement it in steps of 1 until a zero value is reached and repeat step 1.
- 
+/*
+Output the initial value 00 through P0.
+Increment it in steps of 1 until a count value of FFh (5V) is reached.
+Every time repeat step 1.
+Decrement it in steps of 1 until a zero value is reached and repeat step 1.
+*/
+
 #include <REG51xD2.H>
 main()
 {
