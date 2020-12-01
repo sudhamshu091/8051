@@ -11,7 +11,7 @@
 ;3. Increment A register(add 99h for down counter)
 ;4. Decimal adjust accumulator for the BCD up/down counter.
 
-      ORG 0000H
+      ORG 0H
       SJMP 30H
       ORG 30H
       MOV a,#00
