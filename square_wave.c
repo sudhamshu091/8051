@@ -1,3 +1,10 @@
+/*Let initial, amplitude of the square wave be 2.5v (7F) and frequency count 100.
+Output the values 00h (0ff) and 7fh (on) Values through P0.
+If amplitude key is pressed then increase the voltage in steps of 0.15v (8).
+If the frequency key is pressed increment the count in steps of 50. If the count exceeds 1000 reset it back to 100.
+Every time amplitude and frequency changes output the value thro P0 and note the waveform on CRO.
+*/
+
 #include <REG51xD2.H>
 sbit Amp = P3^3; /* Port line to change amplitude */
 sbit Fre = P3^2; /* Port line to change frequency */
